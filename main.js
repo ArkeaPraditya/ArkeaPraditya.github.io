@@ -7,7 +7,8 @@ var sliderContent = [
   "YA ITU KAMU GOBLOK",
   "CAPEK GUA DILINAG KAMU",
   "KAYAK ASU",
-  "WKKWKWKWK"
+  "KECUALI ELL YA :)",
+  "WKWKWKWKWKWWK"
 ];
 var slider = document.querySelector("#slider");
 var sliderValue = document.querySelector("#sliderValue");
