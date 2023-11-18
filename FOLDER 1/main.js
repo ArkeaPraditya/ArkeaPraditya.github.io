@@ -1,34 +1,14 @@
 var sliderCounter = 0;
 var sliderContent = [
-  "aku hanyalah seorang anak",
-  "yang hanya ingin",
-  "mencari kebahagiaanku",
-  "tapi kenapa",
-  "seolah olah",
-  "semua orang membenciku",
-  "tidak ada seorangpun",
-  "yang dapat kupercayai",
-  "selain diriku sendiri",
-  "orang yang kupercayai sekalipun",
-  "ternyata membohongiku",
-  "semua orang menganggapku",
-  "sebagai musuh",
-  "musuh dan musuh",
-  "aku menelusuri",
-  "orang yang mengintaiku",
-  "dengan bakat yang kumiliki",
-  "dan hasil",
-  "lebih dari dugaanku",
-  "banyak orang yang mengintaiku",
-  "dengan akun fake mereka",
-  "aku tersenyum melihat itu",
-  "diam sudah kulakukan",
-  "menyendiri adalah temanku",
-  "meski begitu",
-  "aku tetap salah dimata orang",
-  "ini adalah kisahku",
-  "tanpa rekayasa",
-  "dan karangan sekalipun"
+  "YA KAMU",
+  "YA ITU KAMU",
+  "MEMANG ITU KAMU",
+  "DIBILANG ITU KAMU",
+  "YA ITU KAMU GOBLOK",
+  "CAPEK GUA DILINAG KAMU",
+  "KAYAK ASU",
+  "KECUALI ELL YA :)",
+  "WKWKWKKWKWKW"
 ];
 var slider = document.querySelector("#slider");
 var sliderValue = document.querySelector("#sliderValue");
