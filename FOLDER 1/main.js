@@ -5,9 +5,9 @@ var sliderContent = [
   "MEMANG ITU KAMU",
   "DIBILANG ITU KAMU",
   "YA ITU KAMU GOBLOK",
-  "CAPEK GUA DILINAG KAMU",
+  "CAPEK GUA DIBILANG KAMU",
   "KAYAK ASU",
-  "KECUALI ELL YA 😉",
+  "KECUALI ELL YA",
   "WKWKWKKWKWKW"
 ];
 var slider = document.querySelector("#slider");
