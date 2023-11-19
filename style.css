@@ -1,59 +1,112 @@
-body {
-    font-family: 'Ubuntu', sans-serif;
-    margin: 0 auto;
-    background-color: #191a1e;
-    color: white;
-    min-height: 100vh;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
     display: flex;
-    align-items: center;
+    height: 100vh;
     justify-content: center;
+    align-items: center;
+    background-color: dimgray;
   }
   
-  #slider {
-    width: 600px;
+  .container {
+    animation: scale-up 2.5s linear;
+  }
+  
+  .newsletter {
+    width: 800px;
+    background-color: whitesmoke;
+    padding: 5px;
+    border: 1px solid black;
+    transform: rotate(-5deg);
+    animation: rotate 0.5s linear 5;
+    position: relative;
+  }
+  
+  .newsletter::before {
+    content: '';
+    width: 8px;
+    height: 98%;
+    position: absolute;
+    left: -10px;
+    top: 1%;
+    background-color: whitesmoke;
+    border: 1px solid black;
+  }
+  
+  .newsletter::after {
+    content: '';
+    width: 8px;
+    height: 96%;
+    position: absolute;
+    left: -19px;
+    top: 2%;
+    background-color: whitesmoke;
+    border: 1px solid black;
+  }
+  
+  .name {
     display: flex;
-    gap: 15px;
-    font-size: 30px;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 60px;
   }
   
-  #sliderValue {
+  .info {
     display: flex;
-    color: #0077ee;
-      font-weight: 700;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 5px;
   }
   
-  .start {
-    opacity: 0;
+  .title h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-size: 65px;
   }
   
-  .animation {
-    animation: fade .3s forwards;
+  .content {
+    display: flex;
   }
   
-  
-  @keyframes fade {
-    0%{
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    100%{
-      opacity: 1;
-      transform: translateY(0px);
-    }
+  .left-side {
+    display: flex;
+    flex-direction: column;
   }
   
-  .holder-animation {
-    animation: holder 4s;
+  .left-side h2 {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 5px;
   }
   
-  @keyframes holder {
-    0%{
-      opacity: 1;
-    }
-    95%{
-      opacity: 1;
-    }
-    100%{
-      opacity: 0;
-    }
+  .left-side div {
+    display: flex;
+  }
+  
+  .left-side div p {
+    padding: 5px;
+  }
+  
+  .right-side {
+    padding: 0 10px;
+    font-size: x-small;
+  }
+  
+  @keyframes rotate {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(-360deg);}
+  }
+  
+  @keyframes scale-up {
+    0% {transform: scale(1%);}
+    100% {transform: scale(100%);}
   }
