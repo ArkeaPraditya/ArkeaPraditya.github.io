@@ -1,0 +1,179 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.js">
+    <title>web 1</title>
+</head>
+<body>
+    <section class="home">
+      <div class="description">
+        <h1 class="title">
+          <span class="gradient-text">Barudak Team</span> Rondok Gendeng
+        </h1>
+        <p class="paragraph">
+          Ini adalah kelas X-2 dari Man 2 Pati yang diisi oleh
+          anak anak ambis, mereka berlomba lomba untuk mendapatkan juara.
+          wali kelas kami bernama Bu Rizka, dan itulah seputar informasi
+          dari kelas X-2
+        </p>
+        <form id="form" autocomplete="off">
+          <input
+            type="email"
+            id="email-id"
+            name="email_address"
+            aria-label="email adress"
+            placeholder=""
+            required
+            oninput="checkEmpty()" />
+          <button type="submit" class="btn" aria-label="submit">
+            <span>Ketikan Pesanmu untuk Kita</span>
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </button>
+        </form>
+      </div>
+
+      <div class="users-color-container">
+        <span class="item" style="--i: 1"></span>
+        <img
+          class="item"
+          src="foto4.jpeg"
+          style="--i: 2"
+          alt="" />
+        <span class="item" style="--i: 3"></span>
+        <img
+          class="item"
+          src="foto3.jpeg"
+          style="--i: 4"
+          alt="" />
+
+        <img
+          class="item"
+          src="foto5.jpeg"
+          style="--i: 10"
+          alt="" />
+        <span class="item" style="--i: 11"></span>
+        <img class="item" src="foto6.jpeg" style="--i: 12" alt="" />
+        <span class="item" style="--i: 5"></span>
+
+        <span class="item" style="--i: 9"></span>
+        <img class="item" src="foto6.jpeg" style="--i: 8" alt="" />
+        <span class="item" style="--i: 7"></span>
+        <img class="item" src="foto4.jpeg" style="--i: 6" alt="" />
+      </div>
+    </section>
+
+    <section class="card-container" id="card-container">
+      <div class="slider">
+        <div class="card" data-tilt>
+          <div class="content">
+            <img src="foto2.jpeg" alt="" />
+            <h1>Inilah Naim</h1>
+            <p>
+              Dia adalah teman kami yang sangat lucu dikelas 
+              dia menjadi sosok yang selalu ceria ketika dikelas
+              naim mejadi idola saat berada dikelas.
+            </p>
+            <button class="btn btn-grad">
+              <span>ada lagi</span>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+
+        <div class="card" data-tilt>
+          <div class="content">
+            <img src="foto2.jpeg" alt="" />
+            <h1>Inilah Naim</h1>
+            <p>
+              Ketika dia tidak masuk sekolah kelas X-2
+              serasa menjadi sepi, kami para murid kelas
+              X-2 selalu menanyakannya ketika dia tidak masuk sekolah.
+            </p>
+            <button class="btn btn-grad">
+              <span>ada lagi</span>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+
+        <div class="card" data-tilt>
+          <div class="content">
+            <img src="foto2.jpeg" alt="" />
+            <h1>Inilah Naim</h1>
+            <p>
+              Dia sangat dikagumi oleh para wanita di kelas X-2,
+              ia selalu menjadi perhatian umum para wanita karena sifatnya
+              yang lucu dan humoris.
+            </p>
+            <button class="btn btn-grad">
+              <span>ada lagi</span>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+
+        <div class="card" data-tilt>
+          <div class="content">
+            <img src="foto2.jpeg" alt="" />
+            <h1>Inilah Naim</h1>
+            <p>
+              Sifatnya yang lucu membuat kami para murid
+              bisa tertawa riang dan gembira, ia juga disukai 
+              oleh banyak wanita hal tersebutlah yang membuat
+              naim sangat pd.
+            </p>
+            <button class="btn btn-grad">
+              <span>ada lagi</span>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+
+        <div class="card" data-tilt>
+          <div class="content">
+            <img src="foto2.jpeg" alt="" />
+            <h1>Inilah Naim</h1>
+            <p>
+              Dia mempunyai kembaran yang yang mirip denganya
+              mereka sama sama sekolah di man 2 pati, kembaranya 
+              yang bernama najib adalah adik kandungnya.
+            </p>
+            <button class="btn btn-grad">
+              <span>ada lagi</span>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+
+        <div class="card" data-tilt>
+          <div class="content">
+            <img src="foto2.jpeg" alt="" />
+            <h1>Inilah Naim</h1>
+            <p>
+              Dia tinggal di desa jepar lor kecamatan tayu kabupaten Pati
+              tepatnya hanya berjarak kurang lebih 2 kilo dari sekolah
+              meskipun hanya berjarak kurang lebih 2 kilo dia juga sering
+              terlambat masuk sekolah.
+            </p>
+            <button class="btn btn-grad">
+              <span>sudah</span>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <ul class="control" id="custom-control">
+        <li class="prev">
+          <ion-icon class="arrow" name="caret-back-outline"></ion-icon>
+        </li>
+        <li class="next">
+          <ion-icon class="arrow" name="caret-forward-outline"></ion-icon>
+        </li>
+      </ul>
+    </section>
+  </body>
+  </html>
